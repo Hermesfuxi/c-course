@@ -16,3 +16,4 @@ x64
 Debug/
 Release/
 obj/
+/test.dSYM/
