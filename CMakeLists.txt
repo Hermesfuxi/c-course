@@ -3,9 +3,8 @@ project (c_course)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(c_course
-        main.cpp
-        )
+# 添加源文件
+add_executable(c_course main.cpp)
 
 # 遍历项目根目录下所有的 .cpp 文件
 file (GLOB_RECURSE files *.cpp)
